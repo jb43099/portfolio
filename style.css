@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: darkred;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.project a {
+  text-decoration: none;
+  color: darkred;
+  transition: color 0.3s;
+}
+
+.landing {
+  background: linear-gradient(to bottom, darkred, #f9f9f9);
+  color: darkred;
+  text-align: center;
+  padding: 150px 0;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: xx-large;
+}
+
+.landing p {
+  flex: 1;
+  color: #f9f9f9;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about,
+.projects {
+  padding: 80px 40px;
+  text-align: center;
+  color: darkred;
+}
+
+.project {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project h3 {
+  color: darkred;
+  margin-bottom: 10px;
+}
+
+p,
+h2 {
+  color: #333;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: darkred;
+  color: #fff;
+}
